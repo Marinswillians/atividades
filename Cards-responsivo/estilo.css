@@ -30,23 +30,23 @@
 }
 .botao{
     display: flex;
-    width: 580px;
+    width: 100%;
     padding: 12px 0px;
     background-color: #2D68FE;
     text-decoration: none;
     justify-content: center;
     color: white;
-    margin: 10px 0px;
+    margin: 10px 0;
     border-radius: 4px;
 }
 .data{
     text-align: center;
 }
-.img{
-  width: 353px;
-  height: 188px;
-  border-radius: 4px;
-  margin: 16px 0 16px 16px;
+img{
+    width: 353px;
+    height: 188px;
+    border-radius: 4px;
+    margin: 16px 0px 16px 16px;
 }
 
 @media screen and (max-width: 1024px) {
