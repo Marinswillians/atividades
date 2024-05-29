@@ -1,5 +1,5 @@
 .container{
-    width: 1024px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -10,11 +10,6 @@
     border: 1px solid#D4D4D4; /**/
     display: flex;               /**/
     gap: 16px;
-
-
-
- 
-
 }
 
 .box p{
@@ -30,9 +25,12 @@
     font-weight: 600;
 }
 
+.info{
+    margin: 12px 21px 16px 0px;
+}
 .botao{
     display: flex;
-    width: 100%;
+    width: 580px;
     padding: 12px 0px;
     background-color: #2D68FE;
     text-decoration: none;
@@ -48,18 +46,14 @@
   width: 353px;
   height: 188px;
   border-radius: 4px;
-  margin: 16px;
-}
-
-.box a{
-     margin: 12px 21px 16px 21px; /*----- aqui mexe com os botões azuis*/
+  margin: 16px 0 16px 16px;
 }
 
 @media screen and (max-width: 1024px) {
     .container {
         max-width: 360px;
-        height: auto;
-        margin: 0 auto 20px;
+        height: 458px;
+        margin-bottom: 25px;
     }
 
     .box {
@@ -71,16 +65,18 @@
     img {
         width: 328px;
         height: 194px;
+        margin: 16px 16px 0 16px;
     }
 
     .box .info {
         width: 328px;
         height: 402px;
+        margin-left: 16px;
     }
 
     .botao {
         margin: 10px 0;
         border-radius: 4px;
+        width: 328px;
     }
 }
-
